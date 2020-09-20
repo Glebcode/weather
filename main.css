@@ -58,3 +58,20 @@ transition: 1.5s;
     border-color: rgb(231, 218, 231);
     opacity: 0.8;
 }
+.btn-wrapper{
+    position: relative;
+    top: 0px;
+    width: 400px;
+    height: 200px;
+    background: #cccccc;
+}
+.btngvn{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.btngvn2{
+    position: absolute;
+    top: 100px;
+    left: 200px;
+}
