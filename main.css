@@ -1,0 +1,60 @@
+body{
+background-color: rgb(121, 117, 117);
+transition: 1.5s;
+}
+#container 
+{
+    height: 180x;
+    width: 500px;
+    margin: auto;
+    border: 1px ridge;
+    border-color: rgb(231, 218, 231);
+}
+.big:hover{
+    opacity: 1;
+}
+.small:hover{
+    opacity: 1;
+}
+.medium:hover{
+    opacity: 1;
+}
+.medium.one:hover{
+    opacity: 1;
+}
+.small.one:hover{
+    opacity: 1;
+}
+.wrapper{
+    background: rgb(168, 168, 216);
+    display: flex;   
+}
+.small{
+    width: 25%;
+    background: rgb(226, 161, 161);
+    border: 1px ridge;
+    border-color: rgb(218, 231, 222);
+    opacity: 0.8;
+}
+.small.one{
+    background: rgb(59, 181, 211);
+    opacity: 0.8;
+}
+.medium{
+    width: 33.33%;
+    background: rgb(229, 240, 180);
+    border: 1px ridge;
+    border-color: rgb(231, 218, 231);
+    opacity: 0.8;
+}
+.medium.one{
+    background: rgb(153, 172, 70); 
+    opacity: 0.8; 
+}
+.big{
+    width: 100%;
+    background: rgb(158, 158, 211);
+    border: 1px ridge;
+    border-color: rgb(231, 218, 231);
+    opacity: 0.8;
+}
